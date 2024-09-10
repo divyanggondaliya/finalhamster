@@ -70,7 +70,7 @@ AccountList = [
     #         "auto_finish_mini_game": True,  # Enable auto finish mini game by setting it to True, or set it to False to disable
     #         "auto_playground_games": True,  # Enable auto playground games by setting it to True, or set it to False to disable
     #         # If you have over 5 accounts, disable the auto_playground_games feature or use a proxy for each account.
-    #         "auto_upgrade": Flase,  # Enable auto-upgrade by setting it to True, or set it to False to disable
+    #         "auto_upgrade": False,  # Enable auto-upgrade by setting it to True, or set it to False to disable
     #         "auto_upgrade_start": 12_000_000_000,  # Start buying upgrades when the balance is greater than this amount
     #         "auto_upgrade_min": 12_000_000_000,  # Stop buying upgrades when the balance is less than this amount
     #         # This feature will ignore the auto_upgrade_start and auto_upgrade_min.
