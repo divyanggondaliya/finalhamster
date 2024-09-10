@@ -37,7 +37,7 @@ AccountList = [
             # By changing it to True, the bot will find the overall best card and then wait for the best card to be available (based on cooldown or price).
             # When the best card is available, the bot will buy it and then wait for the next best card to be available.
             # This feature will stop buying upgrades when the balance is less than the price of the best card.
-            "wait_for_best_card": Flase,  # Recommended to keep it True for high-level accounts
+            "wait_for_best_card": False,  # Recommended to keep it True for high-level accounts
             "enable_parallel_upgrades": False,  # Enable parallel card upgrades. This will buy cards in parallel if the best card is on cooldown. It should speed up the profit.
             "parallel_upgrades_max_price_per_hour": 1000,  # Cards with less than X coins per 1k will be bought
             "show_num_buy_options": 0,  # Number of card buy options to show in the logs, ranked by best value, 0 disables this.
